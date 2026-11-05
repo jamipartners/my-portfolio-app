@@ -159,6 +159,8 @@
         transition: border-color 0.2s;
       }
 
+      .card-full { grid-column: 1 / -1; }
+
       .card:hover { border-color: rgba(99, 102, 241, 0.5); }
       .card:hover h3 { color: var(--indigo); }
       .card:hover .ext { color: #cbd5e1; }
@@ -274,7 +276,7 @@
         <section class="section projects">
           <h2>Featured Projects</h2>
           <div class="grid">
-            <article class="card">
+            <article class="card card-full">
               <div>
                 <div class="card-head">
                   <h3>
